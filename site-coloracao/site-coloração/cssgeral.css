@@ -1,0 +1,28 @@
+body { 
+    
+    overflow: hidden;
+     background-image:linear-gradient(to right, #76008E ,#000);
+     text-align: justify;
+     
+    
+     
+ }
+ p {
+    text-align: justify;
+ }
+ * {
+    
+     text-decoration: none;
+     text-align: center; 
+    scroll-behavior: smooth;
+ }
+ 
+ h1{
+   
+     color: aliceblue;
+  }
+ a {
+   color: aliceblue;  
+ }
+ 
+ 

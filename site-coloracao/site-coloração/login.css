@@ -1,0 +1,20 @@
+body {
+    
+    overflow: hidden;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image:linear-gradient(to right, #76008E ,#000);
+}
+
+
+#boxlog {
+    background-color: #00000038;
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ margin: auto;
+ 
+}
+
+ 
+ 
+ 

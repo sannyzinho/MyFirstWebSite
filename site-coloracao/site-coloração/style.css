@@ -1,0 +1,143 @@
+@charset "UTF-8";  
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main"
+    "footer footer";
+}
+/*espaço do login*/
+.space{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    color: #00000000;
+    height: 150vw;
+   
+
+}
+section {
+     
+     
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+    height: 6vw;
+    padding-top: 7rem;
+}
+
+/*AQUI TERMINA CONFIGURAÇÕES GERAIS........................................*/
+
+
+
+
+/*CABEÇALHO.................*/
+header {
+    
+    z-index: 1;
+    grid-area: header;
+    background-color: #5a035a;
+   width: 100vw;
+    
+    display: inline;
+    position:  fixed;
+    vertical-align: top;
+    box-shadow: 0px  3px 4px rgba(0, 0, 0, 0.553);
+    
+}
+div.logo {
+  
+    border-radius: 20px;
+    padding: 0.6%;
+    border: 2%;
+    margin: 1%;
+    color: aliceblue;
+   
+    text-align: center;
+    background-color: #8600a1;
+    font-size: 1.6em;
+ 
+}
+.logo { box-shadow: #00000052 5px 1px 15px;
+    position: relative;
+    text-align:justify;
+    float: left;
+    
+}
+#cabecalho .menu-geral li {
+    
+    font-size: 1.2em;
+    display: inline;
+    float: right;
+    margin-top: 1%;
+    display: inline;
+    
+}
+
+.menu1,.menu2{
+     
+    padding: 0.8%;
+    color: aliceblue;
+   display: inline;
+    width: auto;
+    margin-right: 1.5%;
+    position: relative;
+}
+
+
+/*MAIN...................................*/
+.main-login{
+    height: 6000vh;
+    display: flex; 
+    background-image:linear-gradient(to right, #470056 ,#000);
+}
+main h1 {
+  
+    font-size: 3em;
+   text-align: center;
+}
+
+p  {
+    
+    padding-bottom: 1rem;
+}
+div  h2 {
+    
+   margin: 1.2%;
+}
+main  #main  { 
+    margin: auto;
+    margin-bottom:20rem;
+    width: 70vw;
+    height: 60vh;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Courgette', cursive;
+  font-family: 'Roboto Slab', serif;
+    grid-area: main;
+   background-color: azure;
+   padding: 20px ;
+   border-radius: 5px;
+ 
+}
+/*FOOTER.......................................*/
+
+footer {
+    grid-area: footer;
+    background-color: #76008E;
+}
+
+/**/
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+}
