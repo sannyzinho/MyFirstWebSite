@@ -1,25 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
-  <div id="boxlog"class="login">
-            <h1>login</h1>
-            <br><br>
-    <input 
-     class="login"type="text"placeholder="Email">
-   <br><br>
-    <input class="login"class="login"type="password" placeholder="Senha"><br><br>
-    
-    <button class="login">Enviar</button>
-  </div>
-
+    <main id="container">
+      <form id="login-form">
+        <div id="form_header">
+          <h1>login</h1>
+          <i id="mode_icon" class="fa-solid fa-moon"></i>
+        </div>
+        <div>
+          <a href="#">
+            <img src="assets/imgs/facebook.png" alt="facebook logo">
+          </a>
+          <a href="#">
+            <img src="assets/imgs/google.png" alt="google logo">
+          </a>
+          <a href="#">
+            <img src="assets/imgs/github.png" alt="github logo">
+          </a>
+        </div>
+        <div id="inputs">
+          <div id="input-box">
+            <label for="name">
+              Nome
+              <div class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" name="name">
+              </div>
+            </label>
+          </div>
+        </div>
+        <div id="inputs">
+          <div id="input-box">
+            <label for="email">
+              E-mail
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email">
+              </div>
+            </label>
+          </div>
+        </div>
+        <div id="inputs">
+          <div id="input-box">
+            <label for="password">
+              Senha
+              <div class="input-field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" name="password">
+              </div>
+            </label>
+            <div id="forgot_password">
+              <a href="a">
+                Esqueçeu sua senha?
+              </a>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="login-button">
+         login
+        </button>
+      </form>
+    </main>
+  
 </body>
 </html>

@@ -21,12 +21,9 @@ body {
 
 }
 section {
-     
-     
     background-color: rgba(0, 0, 0, 0);
     margin-bottom: 25px;
     padding-bottom: 0px;
-    height: 6vw;
     padding-top: 7rem;
 }
 
@@ -48,6 +45,14 @@ header {
     vertical-align: top;
     box-shadow: 0px  3px 4px rgba(0, 0, 0, 0.553);
     
+}
+#bnt-in a:hover{
+    transform: scale(4.2);
+    background-color: #0000000b;
+    padding: 10px;
+    border-radius: 10px;
+
+    box-shadow: #0000003d 10px 6px 1px;
 }
 div.logo {
   
@@ -97,7 +102,8 @@ div.logo {
 }
 main h1 {
   
-    font-size: 3em;
+    font-size: 2.7em;
+    
    text-align: center;
 }
 
@@ -111,9 +117,8 @@ div  h2 {
 }
 main  #main  { 
     margin: auto;
-    margin-bottom:20rem;
+    margin-bottom: 20rem;
     width: 70vw;
-    height: 60vh;
     align-items: center;
     text-align: justify;
     font-family: 'Courgette', cursive;
@@ -139,5 +144,85 @@ footer {
 
 
 
-@media (max-width: 768px) {
+
+ 
+@media (max-width:451px) {
+    p {
+        font-size: 58%;
+        padding-bottom: 3px;
+    }
+    main h1 {
+  
+        font-size: 1.5em;
+        
+       text-align: center;
+    }
+    h2 {
+        font-size: 1.0em;
+    }
+    
+    section {
+     
+     
+        background-color: rgba(0, 0, 0, 0);
+        margin-bottom: 25px;
+        height: 6rem; 
+       margin-bottom: -20px;
+        padding-top: 4.1rem;
+    }
+    main  #main  { 
+        margin: auto;
+        margin-bottom:10rem;
+        height: auto;
+        width: 70%;
+        align-items: center;
+        text-align: justify;
+        font-family: 'Courgette', cursive;
+      font-family: 'Roboto Slab', serif;
+        grid-area: main;
+       background-color: azure;
+       padding: 15px ;
+       border-radius: 5px;
+     
+    }
+}
+@media (min-width:452px) and (max-width:801px){
+    p {
+        font-size: 70%;
+        padding-bottom: 3px;
+    }
+    main h1 {
+  
+        font-size: 1.8em;
+        
+       text-align: center;
+    }
+    h2 {
+        font-size: 1.0em;
+    }
+    
+    section {
+     
+     
+        background-color: rgba(0, 0, 0, 0);
+        margin-bottom: 25px;
+        height: 6rem; 
+       margin-bottom: -20px;
+        padding-top: 4.1rem;
+    }
+    main  #main  { 
+        margin: auto;
+        margin-bottom:10rem;
+        height: auto;
+        width: 80%;
+        align-items: center;
+        text-align: justify;
+        font-family: 'Courgette', cursive;
+      font-family: 'Roboto Slab', serif;
+        grid-area: main;
+       background-color: azure;
+       padding: 15px,30px,15px,30px;
+       border-radius: 5px;
+     
+    }
 }
